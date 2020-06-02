@@ -1,7 +1,18 @@
 import { Flat, Decoder, EncoderState, DecoderState } from "./flat";
 
-import { zmId, zmFold } from "./zm";
+import { zmId, zmFold, zmTypeInfo, ZM } from "./zm";
 
-import { AsString } from "./pretty";
+import { AsString, nestedPars } from "./pretty";
 
-export { Flat, Decoder, EncoderState, DecoderState, zmId, zmFold, AsString };
+export {
+  Flat,
+  Decoder,
+  EncoderState,
+  DecoderState,
+  zmId,
+  zmFold,
+  AsString,
+  nestedPars,
+  zmTypeInfo,
+  ZM,
+};
