@@ -1,12 +1,13 @@
 import { Flat, Decoder, EncoderState, DecoderState } from "./flat";
 
-import { zmId, zmFold, zmTypeInfo, ZM } from "./zm";
+import { zmId, zmFold, zmTypeInfo, ZM, flatDecoder } from "./zm";
 
 import { AsString, nestedPars } from "./pretty";
 
 export {
   Flat,
   Decoder,
+  flatDecoder,
   EncoderState,
   DecoderState,
   zmId,
