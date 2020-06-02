@@ -1,6 +1,6 @@
 {
   "name": "@quid2/ts-core",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "TypeScript API for Quid2, core functions",
   "main": "./js/index.js",
   "typings": "./js/index.d.ts",
