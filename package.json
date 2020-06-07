@@ -1,7 +1,7 @@
 {
-  "name": "@quid2/ts-core",
+  "name": "@quid2/prim",
   "version": "0.1.5",
-  "description": "TypeScript API for Quid2, core functions",
+  "description": "TypeScript API for Quid2, primitive functions",
   "main": "./js/index.js",
   "typings": "./js/index.d.ts",
   "scripts": {
